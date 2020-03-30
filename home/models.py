@@ -31,3 +31,13 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class CustomModel345pm(models.Model):
+    "Generated Model"
+    test = models.BigIntegerField()
+
+
+class CustomModel344pm(models.Model):
+    "Generated Model"
+    meaningless_field = models.TextField()
